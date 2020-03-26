@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Самрат Байхонов](https://up.htmlacademy.ru/adaptive/19/user/700389).
-* Наставник: `Неизвестно`.
+* Наставник: [отсутствует].
 
 ---
 
