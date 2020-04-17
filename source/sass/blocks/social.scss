@@ -1,0 +1,47 @@
+.social__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+.social__item {
+  margin-right: 6px;
+  margin-bottom: 6px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.social__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 48px;
+  height: 48px;
+
+  color: $white;
+  background-color: $bluegray;
+
+  svg {
+    fill: $white;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: #669ec0;
+  }
+
+  &:active {
+    background-color: #5496bd;
+
+    svg {
+      fill: rgba($white, 0.3);
+    }
+  }
+}

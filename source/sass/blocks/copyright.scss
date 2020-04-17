@@ -1,0 +1,28 @@
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright__text {
+  margin-right: 10px;
+}
+
+.copyright__link {
+  svg {
+    fill: $black;
+  }
+
+  &:hover,
+  &:focus {
+    svg {
+      fill: $bluegray;
+    }
+  }
+
+  &:active {
+    svg {
+      fill: rgba($black, 0.3);
+    }
+  }
+}

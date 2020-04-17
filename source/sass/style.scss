@@ -1,0 +1,63 @@
+@import "./fonts.scss";
+@import "./variables.scss";
+@import "./mixins.scss";
+@import "blocks/visually-hidden.scss";
+@import "blocks/button.scss";
+@import "blocks/page-header.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/site-list.scss";
+@import "blocks/hero.scss";
+@import "blocks/reasons.scss";
+@import "blocks/reason.scss";
+@import "blocks/search.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/social.scss";
+@import "blocks/copyright.scss";
+@import "blocks/photo.scss";
+
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  padding: 0;
+  margin: 0;
+
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  color: $dark;
+  background-color: $white;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 280px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.page-title {
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+}

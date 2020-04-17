@@ -1,0 +1,24 @@
+.page-header {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 46px;
+}
+
+.page-header__logo {
+  position: relative;
+}
+
+.page-header__toggle {
+  display: none;
+
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  // border: none;
+  // background-color: transparent;
+}
