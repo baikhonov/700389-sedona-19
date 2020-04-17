@@ -1,0 +1,90 @@
+.reason {
+  color: $dark;
+  background-color: $lightgray;
+}
+
+.reason:not(.reason--detail) .container {
+  width: 280px;
+  padding: 30px 15px;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.reason:last-child .container {
+  border-bottom: none;
+}
+
+.reason--detail {
+  padding-top: 60px;
+  padding-bottom: 280px;
+  color: $white;
+  background-color: $bluegray;
+}
+
+.reason--real-town {
+  background-image:
+    url("../../img/bg-triangle.svg"),
+    url("../../img/main-city-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: center top, center bottom;
+}
+
+.reason--devil-bridge {
+  padding-top: 30px;
+  background-image: url("../../img/main-bridge-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.reason__title {
+  font-size: 21px;
+  line-height: 10px;
+
+  color: $black;
+}
+
+.reason--detail .reason__title {
+  color: $white;
+}
+
+.reason__details {
+  margin: 0;
+}
+
+.reason__subitem {
+  width: 280px;
+  padding-left: 50px;
+  margin: 26px auto;
+  text-align: left;
+
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.reason__subitem--house {
+  background-image: url("../../img/icon-house.svg");
+  background-size: 39px;
+}
+
+.reason__subitem--souvenirs {
+  background-image: url("../../img/icon-gift.svg");
+  background-size: 32px;
+}
+
+.reason__subitem--food {
+  background-image: url("../../img/icon-burger.svg");
+  background-size: 40px;
+}
+
+.reason__subitem-title {
+  margin: 0;
+  margin-bottom: 20px;
+
+  font-size: 18px;
+  line-height: 26px;
+
+  color: $black;
+}
+
+.reason__subitem-details {
+  margin: 0;
+}
