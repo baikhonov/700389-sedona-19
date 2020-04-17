@@ -16,7 +16,9 @@
 @import "blocks/photo.scss";
 
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 

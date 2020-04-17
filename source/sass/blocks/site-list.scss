@@ -30,11 +30,10 @@
   }
 }
 
-site-list__item:first-child .site-list__link {
+.site-list__item:first-child .site-list__link {
   border-top: none;
 }
 
-site-list__item:last-child .site-list__link {
+.site-list__item:last-child .site-list__link {
   border-bottom: none;
 }
-
