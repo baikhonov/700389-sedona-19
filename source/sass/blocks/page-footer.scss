@@ -20,3 +20,27 @@
 .page-footer__social {
   margin-bottom: 40px;
 }
+
+@media (min-width: $tablet-width) {
+  .page-footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 648px;
+  }
+
+  .page-footer__hashtag {
+    margin: 0;
+  }
+
+  .page-footer__social {
+    margin: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-footer .container {
+    width: 960px;
+  }
+}

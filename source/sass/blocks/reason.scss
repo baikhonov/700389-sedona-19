@@ -3,7 +3,7 @@
   background-color: $lightgray;
 }
 
-.reason:not(.reason--detail) .container {
+.reason--usual .container {
   width: 280px;
   padding: 30px 15px;
   border-bottom: 1px solid #d6d6d6;
@@ -22,22 +22,23 @@
 
 .reason--real-town {
   background-image:
-    url("../../img/bg-triangle.svg"),
-    url("../../img/main-city-mobile@1x.jpg");
+    url("../img/bg-triangle.svg"),
+    url("../img/main-city-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-position: center top, center bottom;
 }
 
 .reason--devil-bridge {
   padding-top: 30px;
-  background-image: url("../../img/main-bridge-mobile@1x.jpg");
+  background-image: url("../img/main-bridge-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-position: center bottom;
 }
 
 .reason__title {
+  margin: 0;
   font-size: 21px;
-  line-height: 10px;
+  line-height: 26px;
 
   color: $black;
 }
@@ -61,17 +62,17 @@
 }
 
 .reason__subitem--house {
-  background-image: url("../../img/icon-house.svg");
+  background-image: url("../img/icon-house.svg");
   background-size: 39px;
 }
 
 .reason__subitem--souvenirs {
-  background-image: url("../../img/icon-gift.svg");
+  background-image: url("../img/icon-gift.svg");
   background-size: 32px;
 }
 
 .reason__subitem--food {
-  background-image: url("../../img/icon-burger.svg");
+  background-image: url("../img/icon-burger.svg");
   background-size: 40px;
 }
 
@@ -87,4 +88,73 @@
 
 .reason__subitem-details {
   margin: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .reason--detail {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    min-height: 256px;
+    padding: 0;
+  }
+
+  .reason--usual {
+    width: 33.33%;
+  }
+
+  .reason--detail .container {
+    width: auto;
+    padding: 0 20px;
+  }
+
+  .reason--usual .container {
+    width: auto;
+    padding: 30px 40px;
+    border: none;
+  }
+
+  .reason--real-town {
+    padding-right: 67%;
+
+    background-image: url("../img/main-city-tablet@1x.jpg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 67%;
+  }
+
+  .reason--devil-bridge {
+    padding-left: 67%;
+
+    background-image: url("../img/main-bridge-tablet@1x.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 67%;
+  }
+
+  .reason__subitem {
+    width: 33.33%;
+    padding: 164px 45px 0;
+
+    text-align: center;
+
+    background-position: center top 60px;
+  }
+
+  .reason__subitem--house {
+    background-size: 75px 72px;
+  }
+
+  .reason__subitem--souvenirs {
+    background-size: 77px 72px;
+  }
+
+  .reason__subitem--food {
+    background-size: 64px 72px;
+  }
+
+  .reason__title {
+    padding: 0 20px;
+  }
 }

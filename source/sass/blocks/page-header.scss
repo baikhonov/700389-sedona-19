@@ -13,12 +13,28 @@
 }
 
 .page-header__toggle {
-  display: none;
-
   position: absolute;
   right: 0;
   top: 0;
 
-  // border: none;
-  // background-color: transparent;
+  border: none;
+  background-color: transparent;
+}
+
+@media (min-width: $tablet-width) {
+  .page-header {
+    margin-bottom: 55px;
+  }
+
+  .page-header__toggle {
+    display: none;
+  }
+
+  .page-header__logo {
+    position: absolute;
+    left: 50%;
+    top: 0;
+
+    transform: translateX(-50%);
+  }
 }
