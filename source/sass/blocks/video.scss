@@ -1,0 +1,105 @@
+.video {
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
+
+.video__slogan {
+  margin: 0;
+  margin-bottom: 30px;
+
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+
+  color: $black;
+}
+
+.video__intro {
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.video__background {
+  width: 320px;
+  height: 200px;
+
+  background-image: url("../img/video-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.video__panel {
+  margin-top: -45px;
+}
+
+.video__progressbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 280px;
+  height: 45px;
+
+  background-color: rgba($black, 0.6);
+}
+
+.video__scale {
+  position: relative;
+
+  width: 235px;
+  height: 3px;
+
+  background-color: rgba($white, 0.2);
+}
+
+.video__slider {
+  position: absolute;
+  left: 36px;
+  top: -3px;
+  width: 9px;
+  height: 9px;
+
+  background-color: $white;
+  border-radius: 50%;
+}
+
+.video__controls {
+  display: flex;
+  align-items: center;
+  width: 280px;
+  height: 66px;
+  padding: 0 25px;
+
+  background-color: #f2f2f2;
+}
+
+.video__button {
+  border: none;
+  background-color: transparent;
+
+  svg {
+    fill: #5c6870;
+  }
+
+  &:hover,
+  &:focus {
+    svg {
+      fill: $dark;
+    }
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.video__button--subtitles {
+  margin-left: auto;
+}
+
+.video__button--fullscreen {
+  margin-left: 25px;
+}

@@ -1,0 +1,253 @@
+.review {
+  margin-bottom: 40px;
+}
+
+.review__info {
+  margin: 0;
+  margin-bottom: 15px;
+
+  line-height: 24px;
+  text-align: center;
+}
+
+.review__fieldset {
+  padding: 24px 0;
+  border: none;
+  border-top: 1px solid #e5e5e5;
+}
+
+.review__legend {
+  margin: 0;
+  margin-bottom: 30px;
+
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+
+  color: $black;
+}
+
+.review__input-group {
+  position: relative;
+}
+
+.review__fieldset--fio .review__input-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review__fieldset--impressions .review__input-group {
+  margin-bottom: 52px;
+
+  &:last-child {
+    margin-bottom: 20px;
+  }
+}
+
+.review__fieldset--attraction .review__input-group {
+  margin-bottom: 65px;
+
+  &:last-child {
+    margin-bottom: 20px;
+  }
+}
+
+.review__label {
+  position: relative;
+
+  margin-right: 15px;
+  flex-shrink: 0;
+
+  line-height: 26px;
+  user-select: none;
+}
+
+.review__fieldset--contacts .review__label {
+  display: block;
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+
+.review__fieldset--impressions .review__label,
+.review__fieldset--attraction .review__label {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: none;
+
+  color: $black;
+}
+
+.review__input--text {
+  flex-grow: 1;
+
+  width: 100%;
+  padding: 12px 18px 12px 18px;
+
+  font: inherit;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+
+  background-color: #f2f2f2;
+  border: 4px solid #f2f2f2;
+  box-shadow: none;
+
+  &::placeholder {
+    color: $black;
+  }
+
+  &:hover {
+    background-color: #e5e5e5;
+    border-color: #e5e5e5;
+  }
+
+  &:focus,
+  &:active {
+    background-color: #ffffff;
+    border-color: #e5e5e5;
+    outline: none;
+  }
+}
+
+.review__fieldset--contacts .review__input--text {
+  padding-right: 63px;
+}
+
+.review__input-icon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+
+  width: 58px;
+  height: 58px;
+
+  background-color: #e6e6e6;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &--phone {
+    background-image: url("../img/icon-phone.svg");
+  }
+
+  &--email {
+    background-image: url("../img/icon-mail.svg");
+  }
+}
+
+.review__input--radio + label,
+.review__input--checkbox + label {
+  padding-left: 79px;
+}
+
+.review__input--radio + label::before {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  top: -15px;
+
+  width: 56px;
+  height: 56px;
+
+  background-color: #f2f2f2;
+  border-radius: 50%;
+}
+
+.review__input--radio:checked + label::after {
+  content: "";
+
+  position: absolute;
+  left: 17px;
+  top: 2px;
+
+  width: 22px;
+  height: 22px;
+
+  background-color: $dark;
+  border-radius: 50%;
+}
+
+.review__input--radio:hover + label::before {
+  background-color: #e5e5e5;
+}
+
+.review__input--radio:active + label::before {
+  background-color: #d5d5d5;
+}
+
+.review__input--radio:active + label::after {
+  opacity: 0.3;
+}
+
+.review__input--checkbox + label::before {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  top: -15px;
+
+  width: 56px;
+  height: 56px;
+
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.review__input--checkbox:checked + label::after {
+  content: "";
+
+  position: absolute;
+  left: 17px;
+  top: 2px;
+
+  width: 22px;
+  height: 22px;
+
+  background-image: url("../../img/icon-tick.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.review__input--checkbox:hover + label::before {
+  background-color: #e5e5e5;
+}
+
+.review__input--checkbox:active + label::before {
+  background-color: #d5d5d5;
+}
+
+.review__input--checkbox:active + label::after {
+  opacity: 0.3;
+}
+
+.review__textarea {
+  width: 100%;
+  padding: 22px;
+
+  font: inherit;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+
+  color: $black;
+  background-color: #f2f2f2;
+  border: 4px solid #f2f2f2;
+  resize: vertical;
+
+  &::placeholder {
+    color: $black;
+  }
+
+  &:hover {
+    background-color: #e5e5e5;
+    border-color: #e5e5e5;
+  }
+
+  &:focus {
+    outline: 0;
+    background-color: $white;
+  }
+}
