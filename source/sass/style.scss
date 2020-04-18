@@ -14,6 +14,8 @@
 @import "blocks/social.scss";
 @import "blocks/copyright.scss";
 @import "blocks/photo.scss";
+@import "blocks/video.scss";
+@import "blocks/review.scss";
 
 
 *,
@@ -27,9 +29,9 @@ html {
 }
 
 body {
-  min-width: 320px;
+  width: 320px;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
 
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 14px;
@@ -57,6 +59,9 @@ img {
 }
 
 .page-title {
+  margin: 0;
+  margin-bottom: 20px;
+
   font-size: 18px;
   line-height: 26px;
   text-align: center;

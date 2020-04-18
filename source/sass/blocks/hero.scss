@@ -4,10 +4,22 @@
   margin-top: -35px;
 
   background-image:
-    url("../../img/text-sedona-index.svg"),
-    url("../../img/bg-intro-triangle-mobile.svg"),
-    url("../../img/bg-back-mobile@1x.jpg");
+    url("../img/text-sedona-index.svg"),
+    url("../img/bg-intro-triangle-mobile.svg"),
+    url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-position: center, center bottom, center 0;
   background-size: 282px, cover, auto;
+}
+
+.inner-page .hero {
+  min-height: 160px;
+
+  background-image:
+  url("../img/text-sedona.svg"),
+  url("../img/bg-intro-triangle-mobile.svg"),
+  url("../img/bg-back-mobile@1x.jpg");
+background-repeat: no-repeat;
+background-position: center, center bottom, center bottom;
+background-size: 282px, cover, auto;
 }
