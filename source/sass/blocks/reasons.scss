@@ -8,6 +8,7 @@
 
 .reasons__slogan {
   margin: 0;
+  margin-bottom: 20px;
 
   font-size: 18px;
   line-height: 26px;
@@ -16,10 +17,46 @@
   color: $black;
 }
 
+.reasons__description {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
 .reasons__list {
   padding: 0;
   margin: 0;
 
   text-align: center;
   list-style: none;
+}
+
+@media (min-width: $tablet-width) {
+  .reasons__intro {
+    width: auto;
+    padding: 0 140px;
+
+    line-height: 26px;
+  }
+
+  .reasons__slogan {
+    margin-bottom: 30px;
+
+    font-size: 21px;
+  }
+
+  .reasons__description {
+    margin-bottom: 55px;
+  }
+
+  .reasons__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .reasons__intro {
+    width: 500px;
+    padding: 0;
+  }
 }

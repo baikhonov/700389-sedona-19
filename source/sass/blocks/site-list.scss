@@ -9,10 +9,12 @@
 .site-list__link {
   display: block;
   width: 100%;
+  padding: 17px;
   border-bottom: 1px solid #678fa8;
   border-top: 1px solid #9ac2db;
 
-  padding: 21px;
+  font-size: 18px;
+  font-weight: 700;
   text-decoration: none;
   text-align: center;
 
@@ -36,4 +38,39 @@
 
 .site-list__item:last-child .site-list__link {
   border-bottom: none;
+}
+
+@media (min-width: $tablet-width) {
+  .site-list {
+    display: flex;
+    align-items: center;
+  }
+
+  .site-list__item {
+    width: 20%;
+
+    &:nth-child(2) {
+      margin-right: auto;
+    }
+  }
+
+  .site-list__link {
+    font-size: 14px;
+    line-height: 26px;
+
+    color: $black;
+    background-color: transparent;
+    border: none;
+
+    &:hover,
+    &:focus {
+      color: $bluegray;
+      background-color: transparent;
+    }
+
+    &:active {
+      color: rgba($black, 0.3);
+      background-color: transparent;
+    }
+  }
 }
