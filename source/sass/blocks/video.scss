@@ -19,6 +19,8 @@
   margin: 0;
   margin-bottom: 40px;
   padding: 0 10px;
+
+  line-height: 24px;
   text-align: center;
 }
 
@@ -102,4 +104,46 @@
 
 .video__button--fullscreen {
   margin-left: 25px;
+}
+
+@media (min-width: $tablet-width) {
+  .video {
+    padding-top: 70px;
+  }
+
+  .video__slogan {
+    font-size: 30px;
+  }
+
+  .video__intro {
+    width: 450px;
+    margin: 0 auto 60px;
+  }
+
+  .video__player-wrapper {
+    position: relative;
+    width: 648px;
+    height: 499px;
+    margin: 0 auto;
+  }
+
+  .video__background {
+    width: auto;
+    height: 100%;
+
+    background-image: url("../img/video-tablet@1x.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .video__player-wrapper {
+    width: 800px;
+    height: 500px;
+  }
+
+  .video__background {
+    background-image: url("../img/video-desktop@1x.jpg");
+  }
 }

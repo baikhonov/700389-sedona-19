@@ -68,9 +68,25 @@ img {
   text-align: center;
 }
 
+@media (min-width: $tablet-width) {
+  .page-title {
+    margin-bottom: 36px;
+
+    font-size: 30px;
+  }
+
+  .container {
+    width: 648px;
+  }
+}
+
 @media (min-width: $desktop-width) {
   body {
     width: 1200px;
     box-shadow: 0 0 15px rgba($black, 0.2);
+  }
+
+  .container {
+    width: 960px;
   }
 }
