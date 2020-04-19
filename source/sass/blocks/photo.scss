@@ -7,6 +7,10 @@
   @include reset-list;
 }
 
+.photo__list .container {
+  width: auto;
+}
+
 .photo__item {
   padding: 22px 0;
   border-top: 1px solid #e5e5e5;
@@ -16,8 +20,13 @@
   }
 }
 
+.photo__item-wrapper {
+  width: 280px;
+  margin: 0 auto;
+}
+
 .photo__link {
-  display: block;
+  display: flex;
   margin-bottom: 22px;
 }
 
@@ -61,5 +70,66 @@
     background-repeat: no-repeat;
     background-position: 0 0;
     opacity: 0.3;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .photo__intro {
+    width: 450px;
+    margin: 0 auto 60px;
+  }
+
+  .photo__list .container {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 648px;
+    margin: 0 auto;
+  }
+
+  .photo__item {
+    width: 50%;
+    padding: 0;
+    border: none;
+
+    &:first-child {
+      width: 100%;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .photo__item-wrapper {
+    width: auto;
+  }
+
+  .photo__link {
+    margin-bottom: 0;
+  }
+
+  .photo__item-info {
+    position: relative;
+
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+
+  .photo__likes {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .photo__list .container {
+    width: auto;
+  }
+
+  .photo__item {
+    width: 33.33%;
   }
 }
