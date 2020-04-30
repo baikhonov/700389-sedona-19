@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .page-header__wrapper {
@@ -64,7 +63,6 @@
   user-select: none;
 
   &--activated {
-
     .page-header__toggle-line:nth-child(1) {
       top: 6px;
       margin: 0;
