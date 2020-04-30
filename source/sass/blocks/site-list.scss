@@ -1,9 +1,15 @@
 .site-list {
+  display: none;
+
   width: 100%;
   padding: 0;
   margin: 0;
 
   list-style: none;
+
+  &--activated {
+    display: block;
+  }
 }
 
 .site-list__link {
