@@ -21,14 +21,43 @@
   line-height: 24px;
 }
 
+.search__info br {
+  display: none;
+}
+
 @media (min-width: $tablet-width) {
+  .search {
+    padding-top: 54px;
+    padding-bottom: 58px;
+  }
+
   .search .container {
     width: auto;
     max-width: 600px;
-    padding: 0 70px;
+    padding: 0 71px;
   }
 
   .search__question {
+    margin-bottom: 31px;
+
     font-size: 30px;
+  }
+
+  .search__info {
+    margin-bottom: 42px;
+  }
+
+  .search__info br {
+    display: block;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .search {
+    padding-bottom: 66px;
+  }
+
+  .search__info {
+    margin-bottom: 48px;
   }
 }

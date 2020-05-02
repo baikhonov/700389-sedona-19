@@ -18,16 +18,20 @@
 }
 
 .page-footer__social {
-  margin-bottom: 28px;
+  margin-bottom: 34px;
 }
 
 @media (min-width: $tablet-width) {
+  .page-footer {
+    padding: 30px 0;
+  }
+
   .page-footer .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    width: 648px;
+    width: 688px;
   }
 
   .page-footer__hashtag {
@@ -40,7 +44,11 @@
 }
 
 @media (min-width: $desktop-width) {
+  .page-footer {
+    padding: 30px 0;
+  }
+
   .page-footer .container {
-    width: 960px;
+    width: 1000px;
   }
 }

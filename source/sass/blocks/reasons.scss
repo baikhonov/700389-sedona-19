@@ -57,3 +57,10 @@
     flex-wrap: wrap;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .reasons__intro {
+    max-width: 770px;
+  }
+
+}

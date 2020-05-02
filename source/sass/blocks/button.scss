@@ -33,5 +33,9 @@
 @media (min-width: $tablet-width) {
   .button {
     width: 324px;
+
+    &--search {
+      width: auto;
+    }
   }
 }
