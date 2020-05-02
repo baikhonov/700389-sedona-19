@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
 
-  width: 320px;
+  width: 100%;
   min-height: 56px;
   padding: 0 20px;
   margin: 0 auto;
@@ -61,6 +61,7 @@
 
   outline: 0;
   user-select: none;
+  cursor: pointer;
 
   &--activated {
     .page-header__toggle-line:nth-child(1) {
@@ -85,11 +86,22 @@
 
 @media (min-width: $tablet-width) {
   .page-header {
-    margin-bottom: 55px;
+    position: relative;
   }
 
-  .inner-page .page-header {
-    margin-bottom: 77px;
+  .page-header__wrapper {
+    position: absolute;
+
+    width: 102px;
+    padding: 0;
+  }
+
+  .page-header__logo {
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
   }
 
   .page-header__toggle {
@@ -102,5 +114,12 @@
     top: 0;
 
     transform: translateX(-50%);
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .page-header__wrapper {
+    width: 188px;
   }
 }

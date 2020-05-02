@@ -5,7 +5,7 @@
 
 .reason--usual .container {
   width: 280px;
-  padding: 30px 15px;
+  padding: 27px 15px;
   border-bottom: 1px solid #d6d6d6;
 }
 
@@ -15,29 +15,45 @@
 
 .reason--detail {
   padding-top: 60px;
-  padding-bottom: 280px;
+  padding-bottom: 300px;
   color: $white;
   background-color: $bluegray;
 }
 
 .reason--real-town {
+  padding-top: 77px;
+
   background-image:
     url("../img/bg-triangle.svg"),
     url("../img/main-city-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-position: center top, center bottom;
+  background-size: contain, 320px;
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image:
+      url("../img/bg-triangle.svg"),
+      url("../img/main-city-mobile@2x.jpg");
+  }
 }
 
 .reason--devil-bridge {
-  padding-top: 30px;
+  padding-top: 39px;
   background-image: url("../img/main-bridge-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-position: center bottom;
+  background-size: 320px;
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/main-bridge-mobile@2x.jpg");
+  }
 }
 
 .reason__title {
   margin: 0;
-  font-size: 21px;
+  margin-bottom: 9px;
+
+  font-size: 18px;
   line-height: 26px;
 
   color: $black;
@@ -47,6 +63,11 @@
   color: $white;
 }
 
+.reason__number {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
 .reason__details {
   margin: 0;
 }
@@ -54,7 +75,7 @@
 .reason__subitem {
   width: 280px;
   padding-left: 50px;
-  margin: 26px auto;
+  margin: 30px auto;
   text-align: left;
 
   background-repeat: no-repeat;
@@ -63,27 +84,31 @@
 
 .reason__subitem--house {
   background-image: url("../img/icon-house.svg");
-  background-size: 39px;
+  background-size: 39px auto;
 }
 
 .reason__subitem--souvenirs {
   background-image: url("../img/icon-gift.svg");
-  background-size: 32px;
+  background-size: 32px auto;
+  background-position: 5px 0;
 }
 
 .reason__subitem--food {
+  margin-bottom: 35px;
+
   background-image: url("../img/icon-burger.svg");
-  background-size: 40px;
+  background-size: 40px auto;
 }
 
 .reason__subitem-title {
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 
   font-size: 18px;
   line-height: 26px;
 
   color: $black;
+
 }
 
 .reason__subitem-details {
