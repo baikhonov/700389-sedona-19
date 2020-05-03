@@ -34,8 +34,26 @@
   .button {
     width: 324px;
 
+    padding: 16px 10px 16px 0;
+
     &--search {
       width: auto;
     }
+  }
+
+  .review__notes {
+    position: relative;
+
+    sup {
+      position: absolute;
+      left: -8px;
+      top: 8px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .button {
+    width: 480px;
   }
 }
