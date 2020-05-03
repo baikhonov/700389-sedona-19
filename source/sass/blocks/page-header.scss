@@ -64,6 +64,15 @@
   cursor: pointer;
 
   &--activated {
+    position: fixed;
+    z-index: 2;
+    right: 20px;
+    top: 7px;
+
+    .page-header__toggle-line {
+      background-color: $white;
+    }
+
     .page-header__toggle-line:nth-child(1) {
       top: 6px;
       margin: 0;

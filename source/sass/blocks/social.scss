@@ -22,11 +22,15 @@
   justify-content: center;
   align-items: center;
 
-  width: 48px;
+  width: 46px;
   height: 48px;
 
   color: $white;
   background-color: $bluegray;
+
+  &--facebook {
+    width: 47px;
+  }
 
   svg {
     fill: $white;

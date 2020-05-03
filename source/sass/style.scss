@@ -1,4 +1,5 @@
 @import "./fonts.scss";
+@import "./normalize.scss";
 @import "./variables.scss";
 @import "./mixins.scss";
 @import "blocks/visually-hidden.scss";
@@ -48,6 +49,10 @@ a {
   text-decoration: none;
 }
 
+picture {
+  display: flex;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -61,7 +66,7 @@ img {
 
 .page-title {
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 28px;
 
   font-size: 18px;
   line-height: 26px;
@@ -70,7 +75,7 @@ img {
 
 @media (min-width: $tablet-width) {
   .page-title {
-    margin-bottom: 36px;
+    margin-bottom: 30px;
 
     font-size: 30px;
   }
@@ -83,7 +88,7 @@ img {
 @media (min-width: $desktop-width) {
   body {
     width: 1200px;
-    box-shadow: 0 0 15px rgba($black, 0.2);
+    box-shadow: 5px 5px 15px 0 rgba($black, 0.2);
   }
 
   .container {

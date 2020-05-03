@@ -6,32 +6,32 @@
   <title>Седона - Главная страница</title>
   <link rel="stylesheet" href="css/style.css">
   <!-- Pixel Glass -->
-  <style>
-    HTML {
-      background-repeat: no-repeat;
-      background-position: 50% 0;
-      /* Mobile layout by default */
-      background-image: url("screenshots/sedona-index-mobile-without-menu.png");
-    }
+<!--  <style>-->
+  <!--  HTML {-->
+  <!--    background-repeat: no-repeat;-->
+  <!--    background-position: 50% 0;-->
+  <!--    /* Mobile layout by default */-->
+  <!--    background-image: url("screenshots/sedona-index-mobile-without-menu.png");-->
+  <!--  }-->
 
-    /* Tablet */
-    @media ( min-width: 768px ) {
-      HTML {
-        /* Tablet layout */
-        background-image: url("screenshots/sedona-index-tablet.png");
-      }
-    }
+  <!--  /* Tablet */-->
+  <!--  @media ( min-width: 768px ) {-->
+  <!--    HTML {-->
+  <!--      /* Tablet layout */-->
+  <!--      background-image: url("screenshots/sedona-index-tablet.png");-->
+  <!--    }-->
+  <!--  }-->
 
-    /* Desktop */
-    @media ( min-width: 960px ) {
-      HTML {
-        /* Desktop layout */
-        background-image: url("screenshots/sedona-index-desktop.png");
-      }
-    }
-  </style>
-  <link href="./pixel-glass/styles.css" rel="stylesheet">
-  <script src="./pixel-glass/script.js"></script>
+  <!--  /* Desktop */-->
+  <!--  @media ( min-width: 1280px ) {-->
+  <!--    HTML {-->
+  <!--      /* Desktop layout */-->
+  <!--      background-image: url("screenshots/sedona-index-desktop.png");-->
+  <!--    }-->
+  <!--  }-->
+  <!--</style>-->
+  <!--<link href="./pixel-glass/styles.css" rel="stylesheet">-->
+  <!--<script src="./pixel-glass/script.js"></script>-->
   <!-- // Pixel Glass -->
 </head>
 <body>
@@ -39,7 +39,7 @@
   <div class="page-header__wrapper">
     <a class="page-header__logo">
       <picture>
-        <source media="(min-width: 1200px)" srcset="img/logo-sedona-desktop.svg">
+        <source media="(min-width: 1280px)" srcset="img/logo-sedona-desktop.svg">
         <source media="(min-width: 768px)" srcset="img/logo-sedona-tablet.svg">
         <img class="page-header__logo-image" src="img/logo-sedona-mobile.svg" width="102" height="83" alt="Логотип Седоны">
       </picture>
@@ -94,15 +94,15 @@
       </li>
       <li class="reason__subitem reason__subitem--souvenirs">
         <h4 class="reason__subitem-title">Сувениры</h4>
-        <p class="reason__subitem-details">Не только китайского, но и местного производства!</p>
+        <p class="reason__subitem-details">Не только китайского,<br> но и местного производства!</p>
       </li>
       <li class="reason__subitem reason__subitem--food">
         <h4 class="reason__subitem-title">Еда</h4>
-        <p class="reason__subitem-details">Всегда заказывайте фирменный бургер, Вы не разочаруетесь!</p>
+        <p class="reason__subitem-details">Всегда заказывайте фирменный бургер,<br> Вы не разочаруетесь!</p>
       </li>
       <li class="reasons__item reason reason--detail reason--devil-bridge">
         <div class="container">
-          <h3 class="reason__title">Там есть мост дьявола</h3>
+          <h3 class="reason__title reason__title--devil-bridge">Там есть<br> мост дьявола</h3>
           <p class="reason__number">— №2—</p>
           <p class="reason__details">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
         </div>
@@ -135,9 +135,9 @@
     <div class="container">
       <h2 class="visually-hidden">Поиск гостиницы</h2>
       <p class="search__question">Заинтересовались?</p>
-      <p class="search__info">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в
+      <p class="search__info">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в
         седоне</p>
-      <a class="search__button button" href="search.html">Найти гостиницу</a>
+      <a class="search__button button button--search" href="search.html">Найти гостиницу</a>
     </div>
   </section>
 
