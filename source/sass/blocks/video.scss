@@ -55,7 +55,6 @@
   margin: -45px auto 0;
 
   background-image: linear-gradient(to bottom, rgba($black, 0.6), rgba($black, 0.6) 45px, #f2f2f2 45px, #f2f2f2 111px);
-
 }
 
 .video__progressbar {
@@ -130,7 +129,6 @@
 .video__button--fullscreen {
   margin-left: 1px;
   margin-right: 8px;
-
 }
 
 @media (min-width: $tablet-width) {
@@ -214,7 +212,10 @@
 
   .video__progressbar {
     order: 2;
+
+    width: 389px;
   }
+
   .video__button--subtitles {
     order: 3;
   }
@@ -224,10 +225,6 @@
 
     margin-left: 21px;
     margin-right: 36px;
-  }
-
-  .video__progressbar {
-    width: 389px;
   }
 
   .video__scale {

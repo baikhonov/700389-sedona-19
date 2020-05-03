@@ -32,8 +32,6 @@
   &--emotions {
     margin-bottom: 18px;
   }
-
-
 }
 
 .review__fieldset-wrapper,
@@ -139,8 +137,6 @@
 
 .review__input--text {
   /* remove inline style for inputs in browsers */
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
 
   flex-grow: 1;
@@ -302,8 +298,6 @@
 
 .review__textarea {
   /* remove inline style for inputs in browsers */
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
 
   width: 100%;
@@ -353,6 +347,7 @@
     padding: 0 85px;
     margin-bottom: 0;
   }
+
   .review__form-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -387,7 +382,7 @@
       margin-bottom: 70px;
 
       &::after {
-        content: '';
+        content: "";
 
         position: absolute;
         right: 0;
@@ -434,7 +429,6 @@
   .review__fieldset--contacts,
   .review__fieldset--attraction,
   .review__fieldset--emotions {
-
     .review__legend {
       position: relative;
       z-index: 2;
@@ -475,7 +469,6 @@
 
         background-color: #dbdbdb;
       }
-
     }
   }
 
@@ -497,7 +490,6 @@
     .review__input-group {
       width: 44%;
       margin-bottom: 30px;
-
     }
   }
 
@@ -510,8 +502,6 @@
 
     margin-bottom: 24px;
   }
-
-
 
   .review__button-wrapper {
     display: flex;

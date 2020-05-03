@@ -88,8 +88,6 @@
 
     &:first-child {
       width: 100%;
-
-
     }
 
     &:last-child {
@@ -131,6 +129,7 @@
       right: 30px;
     }
   }
+
   .photo__item:nth-child(3) .photo__likes {
     right: 37px;
   }
