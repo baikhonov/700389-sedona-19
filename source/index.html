@@ -4,35 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Седона - Главная страница</title>
-  <link rel="stylesheet" href="css/style.css">
-  <!-- Pixel Glass -->
-<!--    <style>-->
-<!--    HTML {-->
-<!--      background-repeat: no-repeat;-->
-<!--      background-position: 50% 0;-->
-<!--      /* Mobile layout by default */-->
-<!--      background-image: url("screenshots/sedona-index-mobile-without-menu.png");-->
-<!--    }-->
-
-<!--    /* Tablet */-->
-<!--    @media ( min-width: 768px ) {-->
-<!--      HTML {-->
-<!--        /* Tablet layout */-->
-<!--        background-image: url("screenshots/sedona-index-tablet.png");-->
-<!--      }-->
-<!--    }-->
-
-<!--    /* Desktop */-->
-<!--    @media ( min-width: 1280px ) {-->
-<!--      HTML {-->
-<!--        /* Desktop layout */-->
-<!--        background-image: url("screenshots/sedona-index-desktop.png");-->
-<!--      }-->
-<!--    }-->
-<!--  </style>-->
-<!--  <link href="./pixel-glass/styles.css" rel="stylesheet">-->
-<!--  <script src="./pixel-glass/script.js"></script>-->
-  <!-- // Pixel Glass -->
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 </head>
 <body>
 <header class="page-header">
@@ -137,7 +110,7 @@
       <p class="search__question">Заинтересовались?</p>
       <p class="search__info">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в
         седоне</p>
-      <a class="search__button button button--search" href="search.html">Найти гостиницу</a>
+      <a class="search__button button button--search" href="javascript:void(0)">Найти гостиницу</a>
     </div>
   </section>
 
@@ -161,7 +134,7 @@
           <a href="https://twitter.com/htmlacademy_ru" class="social__link social__link--twitter" target="_blank">
             <span class="visually-hidden">Мы в Twitter</span>
             <svg width="17.5px" height="14.663px">
-              <use xlink:href="img/sprite.svg#twitter"></use>
+              <use xlink:href="img/sprite.svg#icon-twitter"></use>
             </svg>
           </a>
         </li>
@@ -169,7 +142,7 @@
           <a href="https://www.facebook.com/htmlacademy" class="social__link social__link--facebook" target="_blank">
             <span class="visually-hidden">Мы в Facebook</span>
             <svg width="8.672px" height="18.944px">
-              <use xlink:href="img/sprite.svg#facebook"></use>
+              <use xlink:href="img/sprite.svg#icon-facebook"></use>
             </svg>
           </a>
         </li>
@@ -178,7 +151,7 @@
             target="_blank">
             <span class="visually-hidden">Наш Youtube канал</span>
             <svg width="19.979px" height="14.015px">
-              <use xlink:href="img/sprite.svg#youtube"></use>
+              <use xlink:href="img/sprite.svg#icon-youtube"></use>
             </svg>
           </a>
         </li>
@@ -189,12 +162,13 @@
       <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive" target="_blank">
         <span class="visually-hidden">HTML Academy</span>
         <svg width="26.943px" height="34.09px">
-          <use xlink:href="img/sprite.svg#htmlacademy"></use>
+          <use xlink:href="img/sprite.svg#icon-htmlacademy"></use>
         </svg>
       </a>
     </div>
   </div>
 </footer>
+<script src="js/picturefill.min.js"></script>
 <script src="js/svg4everybody.min.js"></script>
 <script src="js/script.js"></script>
 </body>
