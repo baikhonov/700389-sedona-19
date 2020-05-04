@@ -3,9 +3,13 @@
   background-color: $lightgray;
 }
 
+.reason--usual {
+  padding: 0 20px;
+}
+
 .reason--usual .container {
-  width: 280px;
   padding: 27px 15px;
+
   border-bottom: 1px solid #d6d6d6;
 }
 
@@ -28,7 +32,7 @@
     url("../img/main-city-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-position: center top, center bottom;
-  background-size: contain, 320px;
+  background-size: contain, 100%;
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image:
@@ -42,7 +46,7 @@
   background-image: url("../img/main-bridge-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-position: center bottom;
-  background-size: 320px;
+  background-size: 100%;
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../img/main-bridge-mobile@2x.jpg");
@@ -77,13 +81,13 @@
 }
 
 .reason__subitem {
-  width: 280px;
-  padding-left: 50px;
+  padding-right: 20px;
+  padding-left: 70px;
   margin: 30px auto;
   text-align: left;
 
   background-repeat: no-repeat;
-  background-position: 0 0;
+  background-position: 20px 0;
 }
 
 .reason__subitem--house {
@@ -94,7 +98,7 @@
 .reason__subitem--souvenirs {
   background-image: url("../img/icon-gift.svg");
   background-size: 32px auto;
-  background-position: 5px 0;
+  background-position: 25px 0;
 }
 
 .reason__subitem--food {
@@ -134,10 +138,10 @@
 
   .reason--usual {
     width: 33.33%;
+    padding: 0;
   }
 
   .reason--detail .container {
-    width: auto;
     padding: 0 45px;
   }
 

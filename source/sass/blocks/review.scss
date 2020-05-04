@@ -36,7 +36,8 @@
 
 .review__fieldset-wrapper,
 .review__button-wrapper {
-  width: 280px;
+
+  padding: 0 20px;
   margin: 0 auto;
 }
 
@@ -225,6 +226,7 @@
   left: 17px;
   top: 50%;
   transform: translateY(-50%);
+  z-index: 1;
 
   width: 21px;
   height: 21px;
@@ -271,6 +273,7 @@
   left: 17px;
   top: 50%;
   transform: translateY(-50%);
+  z-index: 1;
 
   width: 22px;
   height: 22px;
@@ -410,6 +413,7 @@
 
   .review__fieldset-wrapper {
     width: auto;
+    padding: 0;
   }
 
   .review__fieldset--fio .review__fieldset-wrapper {
@@ -509,6 +513,11 @@
     align-items: center;
 
     width: 100%;
+    padding: 0;
+  }
+
+  .review__button {
+    padding-left: 0;
   }
 
   .review__notes {
@@ -582,5 +591,9 @@
 
   .review__input--radio:checked + label::after {
     left: 20px;
+  }
+
+  .review__button {
+    width: 480px;
   }
 }
