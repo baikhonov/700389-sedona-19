@@ -34,7 +34,7 @@
   .button {
     width: 324px;
 
-    padding: 16px 10px 16px 0;
+    padding: 16px 10px;
 
     &--search {
       width: auto;
@@ -49,11 +49,5 @@
       left: -8px;
       top: 8px;
     }
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .button {
-    width: 480px;
   }
 }

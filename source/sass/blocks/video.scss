@@ -25,22 +25,24 @@
 }
 
 .video__player-wrapper {
-  width: 320px;
   margin: 0 auto;
 }
 
 .video__background {
-  width: 320px;
   height: 201px;
 
   background-image: url("../img/video-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-position: 0 0;
-  background-size: 320px;
+  background-size: cover;
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../img/video-mobile@2x.jpg");
   }
+}
+
+.video__panel-wrapper {
+  padding: 0 20px;
 }
 
 .video__panel {
@@ -49,7 +51,6 @@
   display: flex;
   flex-wrap: wrap;
 
-  width: 280px;
   height: 111px;
   padding-bottom: 3px;
   margin: -45px auto 0;

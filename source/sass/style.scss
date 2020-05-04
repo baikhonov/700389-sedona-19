@@ -51,15 +51,16 @@ a {
 
 picture {
   display: flex;
+  width: 100%;
 }
 
 img {
+  width: 100%;
   max-width: 100%;
   height: auto;
 }
 
 .container {
-  width: 320px;
   padding: 0 20px;
   margin: 0 auto;
 }
