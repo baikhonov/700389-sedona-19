@@ -4,35 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Седона - Фото и видео</title>
-  <link rel="stylesheet" href="css/style.css">
-  <!-- Pixel Glass -->
-<!--    <style>-->
-<!--      HTML {-->
-<!--        background-repeat: no-repeat;-->
-<!--        background-position: 50% 0;-->
-<!--        /* Mobile layout by default */-->
-<!--        background-image: url("screenshots/sedona-photo-mobile.png");-->
-<!--      }-->
-
-<!--      /* Tablet */-->
-<!--      @media ( min-width: 768px ) {-->
-<!--        HTML {-->
-<!--          /* Tablet layout */-->
-<!--          background-image: url("screenshots/sedona-photo-tablet.png");-->
-<!--        }-->
-<!--      }-->
-
-<!--      /* Desktop */-->
-<!--      @media ( min-width: 1280px ) {-->
-<!--        HTML {-->
-<!--          /* Desktop layout */-->
-<!--          background-image: url("screenshots/sedona-photo-desktop.png");-->
-<!--        }-->
-<!--      }-->
-<!--    </style>-->
-<!--    <link href="./pixel-glass/styles.css" rel="stylesheet">-->
-<!--    <script src="./pixel-glass/script.js"></script>-->
-  <!-- // Pixel Glass -->
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 </head>
 <body class="inner-page">
 <header class="page-header">
@@ -83,7 +56,7 @@
       <div class="photo__list-wrapper">
         <li class="photo__item">
           <div class="photo__item-wrapper">
-            <a class="photo__link" href="#">
+            <a class="photo__link" href="javascript:void(0)">
               <picture>
                 <source type="image/webp" media="(min-width: 1280px)" srcset="img/photo-sunset-desktop@1x.webp, img/photo-sunset-desktop@2x.webp 2x">
                 <source type="image/webp" media="(min-width: 768px)" srcset="img/photo-sunset-tablet@1x.webp, img/photo-sunset-tablet@2x.webp 2x">
@@ -99,7 +72,7 @@
               <p class="photo__author">Автор фото: Борис</p>
               <p class="photo__likes">
                 <svg class="photo__likes-icon" width="22px" height="20px">
-                  <use xlink:href="img/sprite.svg#likes"></use>
+                  <use xlink:href="img/sprite.svg#icon-like"></use>
                 </svg>
                 <span class="photo__likes-value">1350</span>
               </p>
@@ -108,7 +81,7 @@
         </li>
         <li class="photo__item">
           <div class="photo__item-wrapper">
-            <a class="photo__link" href="#">
+            <a class="photo__link" href="javascript:void(0)">
               <picture>
                 <source type="image/webp" media="(min-width: 1280px)" srcset="img/photo-cactus-desktop@1x.webp, img/photo-cactus-desktop@2x.webp 2x">
                 <source type="image/webp" media="(min-width: 768px)" srcset="img/photo-cactus-tablet@1x.webp, img/photo-cactus-tablet@2x.webp 2x">
@@ -124,7 +97,7 @@
               <p class="photo__author">Автор фото: Сергей</p>
               <p class="photo__likes">
                 <svg class="photo__likes-icon" width="22px" height="20px">
-                  <use xlink:href="img/sprite.svg#likes"></use>
+                  <use xlink:href="img/sprite.svg#icon-like"></use>
                 </svg>
                 <span class="photo__likes-value">143</span>
               </p>
@@ -133,7 +106,7 @@
         </li>
         <li class="photo__item">
           <div class="photo__item-wrapper">
-            <a class="photo__link" href="">
+            <a class="photo__link" href="javascript:void(0)">
               <picture>
                 <source type="image/webp" media="(min-width: 1280px)" srcset="img/photo-roads-desktop@1x.webp, img/photo-roads-desktop@2x.webp 2x">
                 <source type="image/webp" media="(min-width: 768px)" srcset="img/photo-roads-tablet@1x.webp, img/photo-roads-tablet@2x.webp 2x">
@@ -149,7 +122,7 @@
               <p class="photo__author">Автор фото: Пётр</p>
               <p class="photo__likes">
                 <svg class="photo__likes-icon" width="22px" height="20px">
-                  <use xlink:href="img/sprite.svg#likes"></use>
+                  <use xlink:href="img/sprite.svg#icon-like"></use>
                 </svg>
                 <span class="photo__likes-value">96</span>
               </p>
@@ -158,7 +131,7 @@
         </li>
         <li class="photo__item">
           <div class="photo__item-wrapper">
-            <a class="photo__link" href="#">
+            <a class="photo__link" href="javascript:void(0)">
               <picture>
                 <source type="image/webp" media="(min-width: 1280px)" srcset="img/photo-bridge-desktop@1x.webp, img/photo-bridge-desktop@2x.webp 2x">
                 <source type="image/webp" media="(min-width: 768px)" srcset="img/photo-bridge-tablet@1x.webp, img/photo-bridge-tablet@2x.webp 2x">
@@ -174,7 +147,7 @@
               <p class="photo__author">Автор фото: Антон</p>
               <p class="photo__likes">
                 <svg class="photo__likes-icon" width="22px" height="20px">
-                  <use xlink:href="img/sprite.svg#likes"></use>
+                  <use xlink:href="img/sprite.svg#icon-like"></use>
                 </svg>
                 <span class="photo__likes-value">254</span>
               </p>
@@ -205,19 +178,19 @@
             <button class="video__button video__button--replay">
               <span class="visually-hidden">Повторить</span>
               <svg width="16px" height="20px">
-                <use xlink:href="img/sprite.svg#replay"></use>
+                <use xlink:href="img/sprite.svg#icon-video-replay"></use>
               </svg>
             </button>
             <button class="video__button video__button--subtitles">
               <span class="visually-hidden">Субтитры</span>
               <svg width="32px" height="20px">
-                <use xlink:href="img/sprite.svg#subtitles"></use>
+                <use xlink:href="img/sprite.svg#icon-video-subtitles"></use>
               </svg>
             </button>
             <button class="video__button video__button--fullscreen">
               <span class="visually-hidden">На весь экран</span>
               <svg width="20px" height="20px">
-                <use xlink:href="img/sprite.svg#fullscreen"></use>
+                <use xlink:href="img/sprite.svg#icon-video-fullscreen"></use>
               </svg>
             </button>
           </div>
@@ -239,7 +212,7 @@
           <a href="https://twitter.com/htmlacademy_ru" class="social__link social__link--twitter" target="_blank">
             <span class="visually-hidden">Мы в Twitter</span>
             <svg width="17.5px" height="14.663px">
-              <use xlink:href="img/sprite.svg#twitter"></use>
+              <use xlink:href="img/sprite.svg#icon-twitter"></use>
             </svg>
           </a>
         </li>
@@ -247,7 +220,7 @@
           <a href="https://www.facebook.com/htmlacademy" class="social__link social__link--facebook" target="_blank">
             <span class="visually-hidden">Мы в Facebook</span>
             <svg width="8.672px" height="18.944px">
-              <use xlink:href="img/sprite.svg#facebook"></use>
+              <use xlink:href="img/sprite.svg#icon-facebook"></use>
             </svg>
           </a>
         </li>
@@ -256,7 +229,7 @@
             target="_blank">
             <span class="visually-hidden">Наш Youtube канал</span>
             <svg width="19.979px" height="14.015px">
-              <use xlink:href="img/sprite.svg#youtube"></use>
+              <use xlink:href="img/sprite.svg#icon-youtube"></use>
             </svg>
           </a>
         </li>
@@ -267,12 +240,14 @@
       <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive" target="_blank">
         <span class="visually-hidden">HTML Academy</span>
         <svg width="26.943px" height="34.09px">
-          <use xlink:href="img/sprite.svg#htmlacademy"></use>
+          <use xlink:href="img/sprite.svg#icon-htmlacademy"></use>
         </svg>
       </a>
     </div>
   </div>
 </footer>
+<script src="js/picturefill.min.js"></script>
+<script src="js/svg4everybody.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
