@@ -19,7 +19,7 @@
 
 .reason--detail {
   padding-top: 60px;
-  padding-bottom: 300px;
+  padding-bottom: 94%;
   color: $white;
   background-color: $bluegray;
 }
@@ -32,7 +32,7 @@
     url("../img/main-city-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-position: center top, center bottom;
-  background-size: contain, 100%;
+  background-size: 100%, 100%;
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image:
