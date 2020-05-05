@@ -53,10 +53,6 @@
 
   color: $black;
 
-  br {
-    display: none;
-  }
-
   &--attraction {
     margin-bottom: 16px;
   }
@@ -158,6 +154,7 @@
 
   &::placeholder {
     color: $black;
+    opacity: 0.6;
   }
 
   &:hover {
@@ -278,7 +275,7 @@
   width: 22px;
   height: 22px;
 
-  background-image: url("../../img/icon-tick.svg");
+  background-image: url("../img/icon-tick.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
