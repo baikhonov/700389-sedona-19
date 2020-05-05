@@ -89,13 +89,13 @@
 
     &:hover {
       .main-nav__toggle-line {
-        background-color: rgba($white, 0.6);
+        background-color: #cde1ed;
       }
     }
 
     &:active {
       .main-nav__toggle-line {
-        background-color: rgba($white, 0.3);
+        background-color: #a7cae0;
       }
     }
   }
