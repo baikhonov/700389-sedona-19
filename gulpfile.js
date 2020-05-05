@@ -13,7 +13,6 @@ var webp = require('gulp-webp');
 var svgstore = require('gulp-svgstore');
 var htmlmin = require('gulp-htmlmin');
 var uglify = require('gulp-uglify');
-var include = require('posthtml-include');
 var del = require('del');
 var server = require("browser-sync").create();
 
