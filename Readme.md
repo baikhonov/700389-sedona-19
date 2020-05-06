@@ -1,3 +1,3 @@
 # sedona
 
-<a href="https://baikhonov.ru/projects/sedona/" title="Demo" target="_blank">Demo</a>
+<a href="https://baikhonov.github.io/projects/sedona/" title="Demo" target="_blank">Demo</a>
